@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 60px 0px 60px;
+  height: 150px;
+  min-width: 320px;
+  max-width: 1920px;
+}
+
+.search-box {
+  margin-top: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: end;
+  background-color: #012c18;
+  width: 600px;
+  height: 60px;
+  min-width: 250px;
+  min-height: 25px;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.lupa {
+  margin-right: 20px;
+}
+
+.logo {
+
+}
+
+ul {
+  width: 300px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-login {
+  background-color: #012c18;
+  border: none;
+  border-radius: 40px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn-login a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #014c00;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #cad2c5;
+  height: 100px;
+}
+
+.home img {
+  margin-left: 3px;
+}
+
+.home a {
+  text-decoration: none;
+  color: #012c18;
+  
+}
+
+.lugares img {
+  margin-left: 8px;
+}
+
+.lugares a {
+  text-decoration: none;
+  color: #012c18;
+}
+
+.contato {
+  padding-bottom: 78px;
+}
+
+.contato img {
+  margin-left: 7px;
+}
+
+.contato a {
+  text-decoration: none;
+  color: #012c18;   
+}
+
+.home:hover {
+  border-bottom: 2px solid #012c18;
+}
+
+.lugares:hover {
+  border-bottom: 2px solid #012c18;
+}
+
+.contato:hover {
+  border-bottom: 2px solid #012c18;
+}
+
+.text-principal {
+  color: #84A98C;
+  width: 900px;
+  font-size: 40px;
+  margin-left: 28%;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.text-principal b {
+  color: #012c18;
+}
+
+.card-noronha {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-noronha:hover {
+  border: 1px solid #012c18;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn-saiba-mais {
+  border: none;
+  background-color: #354F52;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+  margin: 20px 0px 0px 60px;
+  font-size: 18px;
+}
+
+.card-gramado {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-gramado:hover {
+  border: 1px solid #012c18;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-aparecida {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-aparecida:hover {
+  border: 1px solid #012c18;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-floripa {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-floripa:hover {
+  border: 1px solid #012c18;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cards1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 130px;
+}
+
+.cards2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card-capivara {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.card-capivara:hover {
+  border: 1px solid #012c18;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+}
