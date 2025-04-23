@@ -1,0 +1,455 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 60px 0px 60px;
+  height: 150px;
+  min-width: 320px;
+  max-width: 1920px;
+}
+
+.search-box {
+  margin-top: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: end;
+  background-color: #012c18;
+  width: 600px;
+  height: 60px;
+  min-width: 250px;
+  min-height: 25px;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.lupa {
+  margin-right: 20px;
+}
+
+ul {
+  width: 300px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-login {
+  background-color: #012c18;
+  border: none;
+  border-radius: 40px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-login a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-login:hover {
+  border: 2px solid #014c00;
+  background-color: transparent;
+  transition: 0.3s;
+  color: #012c18;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #cad2c5;
+  height: 100px;
+}
+
+.home img {
+  margin-left: 3px;
+}
+
+.home a {
+  text-decoration: none;
+  color: #012c18;
+  
+}
+
+.lugares img {
+  margin-left: 8px;
+}
+
+.lugares a {
+  text-decoration: none;
+  color: #012c18;
+}
+
+.contato {
+  padding-bottom: 78px;
+}
+
+.contato img {
+  margin-left: 7px;
+}
+
+.contato a {
+  text-decoration: none;
+  color: #012c18;   
+}
+
+.home:hover {
+  border-bottom: 2px solid #012c18;
+}
+
+.lugares:hover {
+  border-bottom: 2px solid #012c18;
+}
+
+.contato:hover {
+  border-bottom: 2px solid #012c18;
+}
+
+.text-principal {
+  color: #84A98C;
+  width: 900px;
+  font-size: 40px;
+  margin-left: 28%;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.text-principal b {
+  color: #012c18;
+}
+
+.card-noronha {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-noronha:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+}
+
+
+.btn-saiba-mais {
+  border: none;
+  background-color: #354F52;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+  margin: 20px 0px 0px 60px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-saiba-mais:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-gramado {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-gramado:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+}
+
+.card-aparecida {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-aparecida:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+}
+
+.card-floripa {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-floripa:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+}
+
+.cards1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 130px;
+}
+
+.cards2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card-capivara {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-capivara:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+}
+
+.card-ouro {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-ouro:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+  
+}
+
+.card-salvador {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-salvador:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+}
+
+.card-porto {
+  background-color: #cad2c5;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.card-porto:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid  #012c18;
+}
+
+footer {
+  background-color: #2D2D2D;
+  margin-top: 90px;
+  height: 150px;
+}
+
+.rede-social{
+  color: white;
+  font-size: 21px;
+  text-align: right;
+  padding-top: 35px;
+  padding-right: 70px;
+}
+
+.rede-social img {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  transition: all 0.3s ease;
+}
+
+.rede-social img:hover {
+  transform: scale(1.10); 
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+}
+
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 16px;
+  }
+
+  .search-box {
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 0;
+  }
+
+  nav {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .text-principal {
+    width: 90%;
+    font-size: 26px;
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+
+  .cards1,
+  .cards2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 20px 60px 20px;
+  }
+
+  .card-noronha,
+  .card-gramado,
+  .card-aparecida,
+  .card-floripa,
+  .card-capivara,
+  .card-ouro,
+  .card-salvador,
+  .card-porto {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .btn-saiba-mais {
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+
+  .rede-social {
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text-principal {
+    font-size: 22px;
+  }
+
+  .btn-login {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .search-box {
+    height: 50px;
+    padding: 0 10px;
+  }
+
+  .search-txt {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .image-text {
+    font-size: 14px;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .rede-social img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
